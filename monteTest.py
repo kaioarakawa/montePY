@@ -6,6 +6,7 @@ import math
 
 def throw_dart():
 	pt = math.pow(random.random(),2) + math.pow(random.random(),2)
+    #EQUAÇÃO DA CIRCUNFERENCIA QUE RETORNA O RAIO:
 	if (math.pow(random.random(),2) + math.pow(random.random(),2) ) <= 1: return 1
 	else: return 0
 
